@@ -1,0 +1,10 @@
+{
+  "fixturesFolder": "fixtures/",
+  "integrationFolder": "integration/",
+  "screenshotsFolder": "screenshots/",
+  "supportFile": "support/supportFile",
+  "videosFolder": "videos/",
+
+  "requestTimeout": 20000,
+  "baseUrl": "http://www.anva.nl"
+}
