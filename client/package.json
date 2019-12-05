@@ -14,7 +14,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "@vue/component-compiler-utils": "^2.6.0",
     "axios": "^0.19.0",
+    "deepmerge": "^4.0.0",
     "lodash": "^4.17.11",
     "vue": "^2.6.10",
     "vue-router": "^2.7.0",
@@ -45,6 +47,7 @@
     "cross-spawn": "^5.0.1",
     "css-loader": "^2.1.1",
     "cssnano": "^4.1.10",
+    "cypress": "^3.7.0",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^6.2.1",
     "eslint-friendly-formatter": "^3.0.0",

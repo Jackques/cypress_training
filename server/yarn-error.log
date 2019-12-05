@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;Git\cmd;C:\Program Files\Java\jdk1.8.0_171\bin;WinMerge;C:\Program Files\dotnet\;D:\Apps\Git\cmd;C:\Users\jackg\AppData\Roaming\nvm-2;C:\Program Files\nodejs;C:\Program Files\Apache-Maven\apache-maven-3.6.0\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\jackg\AppData\Local\Microsoft\WindowsApps;Docker Toolbox;C:\Users\jackg\AppData\Roaming\nvm-2;C:\Program Files\nodejs;C:\Program Files\Apache-Maven\apache-maven-3.6.0\bin;C:\Users\jackg\AppData\Local\Yarn\bin;
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  13.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND nexus.anva.nl
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon src/app.js --exec  \"node\"",
+      "lint": "eslint src/**/*.js",
+      "lint:fix": "eslint src/**/*.js  --fix",
+      "seed": "node seed"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt-nodejs": "0.0.3",
+      "bluebird": "^3.5.0",
+      "body-parser": "^1.17.2",
+      "cors": "^2.8.4",
+      "express": "^4.15.4",
+      "hoek": "~>4.2.1",
+      "joi": "^10.6.0",
+      "jsonwebtoken": "^8.0.0",
+      "moment": "~> 2.19.3",
+      "morgan": "^1.9.1",
+      "passport": "^0.4.0",
+      "passport-jwt": "^4.0.0",
+      "sequelize": "^5",
+      "sqlite3": "^4.0.1"
+    },
+    "devDependencies": {
+      "eslint": "^5.16.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.1.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "nodemon": "^1.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
